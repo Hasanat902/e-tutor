@@ -1,10 +1,11 @@
+import Navbar from "./components/Navbar/Navbar"
 
 function App() {
 
   return (
-    <>
-      <h2 className="text-red-400">Hello there!</h2>
-    </>
+    <main className="overflow-x-hidden">
+      <Navbar />
+    </main>
   )
 }
 
