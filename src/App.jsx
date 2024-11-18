@@ -1,3 +1,4 @@
+import Counter from "./components/Counter/Counter"
 import Hero from "./components/Hero/Hero"
 import Navbar from "./components/Navbar/Navbar"
 import NavbarBanner from "./components/Navbar/NavbarBanner"
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <NavbarBanner />
       <Hero />
+      <Counter />
     </main>
   )
 }
