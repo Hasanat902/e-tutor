@@ -7,6 +7,7 @@ import Img1 from "./assets/banner1.png"
 import Img2 from "./assets/banner2.png"
 import Banner from "./components/Banner/Banner"
 import Subject from "./components/Subject/Subject"
+import Testimonials from "./components/Testimonials/Testimonials"
 
 const BannerData = {
   image: Img1,
@@ -39,6 +40,7 @@ function App() {
       <Banner {...BannerData} />
       <Banner {...BannerData2} reverse={true} />
       <Subject />
+      <Testimonials />
     </main>
   )
 }
