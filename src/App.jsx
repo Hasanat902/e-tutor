@@ -1,3 +1,4 @@
+import ChooseUs from "./components/ChooseUs/ChooseUs"
 import Counter from "./components/Counter/Counter"
 import Hero from "./components/Hero/Hero"
 import Navbar from "./components/Navbar/Navbar"
@@ -11,6 +12,7 @@ function App() {
       <NavbarBanner />
       <Hero />
       <Counter />
+      <ChooseUs />
     </main>
   )
 }
